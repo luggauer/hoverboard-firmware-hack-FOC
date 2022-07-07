@@ -20,7 +20,7 @@
   //#define VARIANT_HOVERBOARD  // Variant for HOVERBOARD build
   //#define VARIANT_TRANSPOTTER // Variant for TRANSPOTTER build https://github.com/NiklasFauth/hoverboard-firmware-hack/wiki/Build-Instruction:-TranspOtter https://hackaday.io/project/161891-transpotter-ng
   //#define VARIANT_SKATEBOARD  // Variant for SKATEBOARD build
-  //#define VARIANT_BBCAR       // Variant for small Toy-Car with steering wheel with 4 drive modes https://larsm.org/allrad-e-bobby-car/
+  #define VARIANT_BBCAR       // Variant for small Toy-Car with steering wheel with 4 drive modes https://larsm.org/allrad-e-bobby-car/
 #endif
 // ########################### END OF VARIANT SELECTION ############################
 
@@ -64,7 +64,7 @@
  * 0 - Default board type
  * 1 - Alternate board type with different pin mapping for DCLINK, Buzzer and ON/OFF, Button and Charger
 */
-#define BOARD_VARIANT           0         // change if board with alternate pin mapping
+#define BOARD_VARIANT           1         // change if board with alternate pin mapping
 // ######################## END OF BOARD VARIANT ###############################
 
 // ############################### BATTERY ###############################
